@@ -1,0 +1,307 @@
+html {
+    background: var(--cor-secundaria);
+}
+
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+
+@font-face {
+    font-family: Quantify;
+    src: url(../fonts/Quantify.ttf);
+}
+
+body {
+    font-family: OpenSans-SemiBold;
+}
+
+:root {
+    --cor-default: #000;
+    --cor-primaria: #fff;
+    --cor-secundaria: #001e3f;
+    --cor-terciaria: #1061bb;
+    --cor-quartenaria: #097eff;
+    --cor-quinaria: #00141d;
+    --fonte-primaria: OpenSans-SemiBold;
+    --fonte-secundaria: OpenSans-Bold;
+    --fonte-terciaria: Quantify;
+    --font-quartenaria: OpenSans-ExtraBold;
+}
+
+p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/*=========================================
+                    Início
+=========================================*/
+
+section#inicio {
+    background-color: var(--cor-terciaria);
+}
+
+header {
+    width: 100%;
+    background: url(../img/bg-banner-principal.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 125px 0 0 0;
+    margin: 0 auto;
+}
+
+#sasilva {
+    width: 75%;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-terciaria);
+    font-size: 8em;
+    
+}
+
+#sasilva span {
+    color: var(--cor-secundaria);
+}
+
+#agencia-digital {
+    margin-top: 50px;
+    margin-left: 10px;
+    color: var(--cor-secundaria);
+    text-transform: uppercase;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+#texto-banner p {
+    color: var(--cor-primaria);
+    font-size: 15.88px !important;
+    width: 100%;
+}
+
+#monitor-banner {
+    margin: 15px;
+}
+
+#monitor-banner img {
+    width: 100%;
+}
+
+div.botoes {
+    width: 100%;
+    margin-top: 50px;
+}
+
+a .btn {
+    width: 200px;
+    background-color: #fff;
+    text-align: center;
+}
+
+a .btn {
+    width: 200px;
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 0;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+a .btn span {
+    float: right;
+    padding: 3% 20% 0 0;
+}
+
+#botao1 {
+    color: var(--cor-secundaria);
+}
+
+#botao2 {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+/*=========================================
+                O que fazemos?
+=========================================*/
+
+section#o-que-fazemos {
+    padding-bottom: 40px;
+}
+
+.titulo {
+	font-family: OpenSans-Bold;
+	font-size: 3em;
+	font-weight: bold;
+    padding: 50px 0 30px 0;
+    color: var(--cor-primaria);
+}
+
+.titulo-azul {
+    color: var(--cor-quartenaria);
+}
+
+.titulo:after {
+	content: "";
+	display: block;
+	width: 40%;
+	height: 2px;
+    margin: 20px 0 50px 0;
+    background-color: var(--cor-quartenaria);
+}
+
+#o-que-fazemos p {
+    color: var(--cor-primaria);
+}
+
+#o-que-fazemos h4 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.servicos {
+    margin: 50px auto;
+}
+
+#o-que-fazemos img {
+    float: left;
+    margin: 0 20px;
+}
+
+/*=========================================
+                 Missao
+=========================================*/
+
+section#missao {
+    background: var(--cor-quinaria);
+    padding: 80px 0;
+}
+
+#missao h1 {
+    color: var(--cor-quartenaria);
+    width: 100%;
+    font-size: 3em;
+    font-family: var(--fonte-secundaria);
+    line-height: 38px !important;
+}
+
+#missao h3 {
+    color: var(--cor-primaria);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#missao p {
+    color: var(--cor-primaria);
+    margin: 20px;
+    font-size: 15px;
+}
+
+.paragrafo-missao {
+    padding: 40px 0;
+}
+
+#missao p:nth-child(3) {
+    float: left;
+}
+
+a .btn-wpp {
+    width: 150px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin: 0 20px;
+    float: right
+}
+
+a .btn-wpp span {
+    float: right;
+    padding: 5% 10% 0 0;
+}
+
+#botao3 {
+    color: var(--cor-default);
+}
+
+/*=========================================
+                 Sobre
+=========================================*/
+
+#sobre {
+    color: var(--cor-primaria);
+    padding: 80px 0;
+}
+
+#sobre img {
+    float: left;
+    margin: 0 20px;
+}
+
+#sobre h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#sobre p {
+    margin: 20px;
+}
+
+/*=========================================
+                 Clientes
+=========================================*/
+
+section#nossos-clientes {
+    background: var(--cor-quinaria);
+    padding: 80px;
+}
+
+#nossos-clientes h1 {
+    color: var(--cor-quartenaria);
+    width: 100%;
+    font-size: 3em;
+    font-family: var(--fonte-secundaria);
+    line-height: 38px !important;
+}
+
+#nossos-clientes h3 {
+    color: var(--cor-primaria);
+    font-size: 2em;
+    padding-top: 80px 0;
+    margin-top: 10px;
+    
+}
+
+#nossos-clientes figure {
+    float: left;
+    width: 15%;
+}
+
+#nossos-clientes figure img {
+    width: 100%;
+}
+
+/*=========================================
+                 Footer
+=========================================*/
+
+section#footer {
+    padding: 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--cor-quartenaria);
+}
